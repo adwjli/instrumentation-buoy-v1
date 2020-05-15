@@ -1,0 +1,7 @@
+# Kicad project folders
+tmp/
+
+# Kicad project files
+fp-info-cache
+*.kicad_pcb-bak
+*.sch-bak
