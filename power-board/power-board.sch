@@ -1,0 +1,1254 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Power Board"
+Date "2020-04-25"
+Rev "C"
+Comp "Project: Buoy Instrumentation"
+Comment1 "Drawn by: Andrew Li"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Charge_Controllers:ECS00043 U1
+U 1 1 53B7DDDE
+P 5100 5000
+F 0 "U1" H 4800 5400 42  0000 C CNN
+F 1 "ECS00043" H 5100 5550 40  0001 C CNN
+F 2 "ECFootprints:ECMSOP-12D" H 5000 5150 40  0001 C CNN
+F 3 "${INTERNAL_PARTS_LIB}/Datasheets/Charge Controllers/Linear Technology - LT3652 - MPPT Charge Controller Li-Ion.pdf" H 5000 5150 40  0001 C CNN
+F 4 "~" H 4900 5500 40  0001 C CNN "Component Value"
+F 5 "LT3652EMSE#PBF" H 5200 5400 40  0000 C CNN "Manufacturer Part Number"
+F 6 "Linear Technology" H 5100 5650 40  0001 C CNN "Manufacturer"
+F 7 "~" H 5200 5800 40  0001 C CNN "Series"
+F 8 "Switch Mode Charge Controller with MPPT" H 5050 5750 40  0001 C CNN "Part Description"
+	1    5100 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors:ECS00045 R2
+U 1 1 53B7DE0F
+P 4200 4750
+F 0 "R2" H 4200 4830 40  0000 C CNN
+F 1 "ECS00045" H 4200 5000 40  0001 C CNN
+F 2 "ECFootprints:EC0603" H 4200 4680 30  0001 C CNN
+F 3 "~" H 4200 4750 30  0001 C CNN
+F 4 "10K" H 4200 4750 40  0000 C CNN "Component Value"
+F 5 "ERJ3GEYJ103V" H 4200 4650 40  0001 C CNN "Manufacturer Part Number"
+F 6 "Panasonic" H 4200 4900 40  0001 C CNN "Manufacturer"
+F 7 "ERJ Series" H 4200 4550 40  0001 C CNN "Series"
+F 8 "10K, 0603, 5%, 0.1W, Thick Film" H 4200 4450 40  0001 C CNN "Part Description"
+	1    4200 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Resistors:ECS00045 R1
+U 1 1 53B7DE57
+P 3950 4750
+F 0 "R1" H 3950 4830 40  0000 C CNN
+F 1 "ECS00045" H 3950 5000 40  0001 C CNN
+F 2 "ECFootprints:EC0603" H 3950 4680 30  0001 C CNN
+F 3 "~" H 3950 4750 30  0001 C CNN
+F 4 "10K" H 3950 4750 40  0000 C CNN "Component Value"
+F 5 "ERJ3GEYJ103V" H 3950 4650 40  0001 C CNN "Manufacturer Part Number"
+F 6 "Panasonic" H 3950 4900 40  0001 C CNN "Manufacturer"
+F 7 "ERJ Series" H 3950 4550 40  0001 C CNN "Series"
+F 8 "10K, 0603, 5%, 0.1W, Thick Film" H 3950 4450 40  0001 C CNN "Part Description"
+	1    3950 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Capacitors:ECS00052 C2
+U 1 1 53B7DFE2
+P 5900 4500
+F 0 "C2" H 5900 4600 40  0000 L CNN
+F 1 "ECS00052" V 5650 4350 40  0001 L CNN
+F 2 "ECFootprints:EC0603_C" H 5938 4350 30  0001 C CNN
+F 3 "${INTERNAL_PARTS_LIB}/Datasheets/Capacitors/Murata GRM Capacitors/GRM188R61H105KAAL#.pdf" H 5900 4500 60  0001 C CNN
+F 4 "1uF" H 5800 4400 40  0000 C CNN "Component Value"
+F 5 "GRM188R61H105KAALD" V 6050 4500 40  0001 C CNN "Manfacturer Part Number"
+F 6 "Murata" V 5750 4500 40  0001 C CNN "Manufacturer"
+F 7 "GRM Series" V 6150 4500 40  0001 C CNN "Series"
+F 8 "1uF, 0603, 10%, 50V, X5R, Ceramic" V 6250 4450 40  0001 C CNN "Part Description"
+	1    5900 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors:ECS00053 C1
+U 1 1 53B7E013
+P 6950 5450
+F 0 "C1" H 6950 5550 40  0000 L CNN
+F 1 "ECS00053" V 6700 5300 40  0001 L CNN
+F 2 "ECFootprints:EC2917" H 6988 5300 30  0001 C CNN
+F 3 "${INTERNAL_PARTS_LIB}/Datasheets/Capacitors/AVX - TPS Series - Tantalum Capacitors.pdf" H 6950 5450 60  0001 C CNN
+F 4 "10uF" H 6850 5350 40  0000 C CNN "Component Value"
+F 5 "TPSD106K035R0125" V 7100 5450 40  0000 C CNN "Manfacturer Part Number"
+F 6 "AVX" V 6800 5450 40  0001 C CNN "Manufacturer"
+F 7 "TPS Series" V 7200 5450 40  0001 C CNN "Series"
+F 8 "10uF, 2917, 10%, 35V, Tantalum" V 7300 5400 40  0001 C CNN "Part Description"
+	1    6950 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors:ECS00054 C6
+U 1 1 53B7E129
+P 7400 5450
+F 0 "C6" H 7400 5550 40  0000 L CNN
+F 1 "ECS00054" V 7150 5300 40  0001 L CNN
+F 2 "ECFootprints:EC2917" H 7438 5300 30  0001 C CNN
+F 3 "~" H 7400 5450 60  0001 C CNN
+F 4 "100uF" H 7300 5350 40  0000 C CNN "Component Value"
+F 5 "TPSD107K016R0060" V 7550 5450 40  0000 C CNN "Manfacturer Part Number"
+F 6 "AVX" V 7250 5450 40  0001 C CNN "Manufacturer"
+F 7 "TPS Series" V 7650 5450 40  0001 C CNN "Series"
+F 8 "100uF, 2917, 10%, 16V, Tantalum" V 7750 5400 40  0001 C CNN "Part Description"
+	1    7400 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connectors:ECS00066 J1
+U 1 1 53B7E291
+P 1700 1650
+F 0 "J1" H 1400 2000 40  0000 C CNN
+F 1 "ECS00066" H 1700 2050 40  0001 C CNN
+F 2 "ECFootprints:ECUSBMINIB" H 1350 1950 40  0001 C CNN
+F 3 "~" H 1450 2050 40  0001 C CNN
+F 4 "~" H 1550 2150 40  0001 C CNN "Component Value"
+F 5 "1734035-1" H 1700 1300 40  0000 C CNN "Manufacturer Part Number"
+F 6 "TE Connectivity" H 1700 1200 40  0001 C CNN "Manufacturer"
+F 7 "~" H 1850 2450 40  0001 C CNN "Series"
+F 8 "Mini USB Type B, receptacle" H 1700 1100 40  0001 C CNN "Part Description"
+	1    1700 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connectors:ECS00059 J8
+U 1 1 53B7E2C2
+P 6700 1950
+F 0 "J8" V 6650 1950 40  0000 C CNN
+F 1 "ECS00059" V 6750 1950 40  0001 C CNN
+F 2 "ECFootprints:ECS00059F" H 6550 1850 60  0001 C CNN
+F 3 "~" V 6650 1950 60  0000 C CNN
+F 4 "4x1" H 6700 1600 40  0001 C CNN "Component Value"
+F 5 "BF090-04-A-1-N-D" H 6500 1700 40  0000 C CNN "Manufacturer Part Number"
+F 6 "Global Connector Technology" H 6700 1700 40  0001 C CNN "Manufacturer"
+F 7 "~" V 7050 2350 40  0001 C CNN "Series"
+F 8 "4-way, receptacle b-b, 2mm pitch, vertical, SMD, BF040 Series" H 6750 1500 40  0001 C CNN "Part Description"
+	1    6700 1950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connectors:ECS00059 J9
+U 1 1 53B7E2F6
+P 6700 1350
+F 0 "J9" V 6650 1350 40  0000 C CNN
+F 1 "ECS00059" V 6750 1350 40  0001 C CNN
+F 2 "ECFootprints:ECS00059F" H 6550 1250 60  0001 C CNN
+F 3 "~" V 6650 1350 60  0000 C CNN
+F 4 "4x1" H 6700 1000 40  0001 C CNN "Component Value"
+F 5 "BF090-04-A-1-N-D" H 6500 1100 40  0000 C CNN "Manufacturer Part Number"
+F 6 "Global Connector Technology" H 6700 1100 40  0001 C CNN "Manufacturer"
+F 7 "~" V 7050 1750 40  0001 C CNN "Series"
+F 8 "4-way, receptacle b-b, 2mm pitch, vertical, SMD, BF040 Series" H 6750 900 40  0001 C CNN "Part Description"
+	1    6700 1350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connectors:ECS00059 J11
+U 1 1 53B7E301
+P 6700 2600
+F 0 "J11" V 6650 2600 40  0000 C CNN
+F 1 "ECS00059" V 6750 2600 40  0001 C CNN
+F 2 "ECFootprints:ECS00059F" H 6550 2500 60  0001 C CNN
+F 3 "~" V 6650 2600 60  0000 C CNN
+F 4 "4x1" H 6700 2250 40  0001 C CNN "Component Value"
+F 5 "BF090-04-A-1-N-D" H 6500 2350 40  0000 C CNN "Manufacturer Part Number"
+F 6 "Global Connector Technology" H 6700 2350 40  0001 C CNN "Manufacturer"
+F 7 "~" V 7050 3000 40  0001 C CNN "Series"
+F 8 "4-way, receptacle b-b, 2mm pitch, vertical, SMD, BF040 Series" H 6750 2150 40  0001 C CNN "Part Description"
+	1    6700 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connectors:ECS00067 P1
+U 1 1 53B7E327
+P 5050 1350
+F 0 "P1" V 5000 1350 40  0000 C CNN
+F 1 "ECS00067" H 5050 1100 40  0001 C CNN
+F 2 "ECFootprints:ECS00067F" H 4900 1250 40  0001 C CNN
+F 3 "${INTERNAL_PARTS_LIB}/Datasheets/Connectors/JST - PH Series.pdf" V 5000 1350 40  0001 C CNN
+F 4 "2x1" H 5050 1000 40  0001 C CNN "Component Value"
+F 5 "B2B-PH-SM4-TB(LF)(SN)" H 4850 1150 40  0000 C CNN "Manufacturer Part Number"
+F 6 "JST" H 5050 1550 40  0001 C CNN "Manufacturer"
+F 7 "PH Series" H 5050 900 40  0001 C CNN "Series"
+F 8 "2-way, header, 2mm pitch, vertical, SMD, PH Series" H 5050 800 40  0001 C CNN "Part Description"
+	1    5050 1350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Inductors:ECS00074 L1
+U 1 1 53B7E3A4
+P 10250 4550
+F 0 "L1" V 10200 4550 40  0000 C CNN
+F 1 "ECS00074" V 10100 4550 40  0001 C CNN
+F 2 "ECFootprints:EC0603_L" H 10250 4550 40  0001 C CNN
+F 3 "${INTERNAL_PARTS_LIB}/Datasheets/Inductors/Murata - BLM18T Series - Ferrite Bead.pdf" H 10250 4550 40  0001 C CNN
+F 4 "1kK @ 100MHz" V 10350 4550 40  0000 C CNN "Component Value"
+F 5 "BLM18TG102TN1D" V 10450 4550 40  0001 C CNN "Manufacturer Part Number"
+F 6 "Murata" V 10550 4550 40  0001 C CNN "Manufacturer"
+F 7 "BLM18T Series" V 10650 4550 40  0001 C CNN "Series"
+F 8 "1K @ 100MHz, 0603, 0.1A, 0R6" V 10750 4550 40  0001 C CNN "Part Description"
+	1    10250 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connectors:ECS00004 P4
+U 1 1 53B7E42F
+P 8450 4600
+F 0 "P4" V 8400 4600 40  0000 C CNN
+F 1 "ECS00004" H 8450 4350 40  0001 C CNN
+F 2 "ECFootprints:ECS00004F" H 8300 4500 40  0001 C CNN
+F 3 "~" V 8400 4600 40  0000 C CNN
+F 4 "2x1" H 8450 4250 40  0001 C CNN "Component Value"
+F 5 "22-28-4020" V 8600 4600 40  0000 C CNN "Manufacturer Part Number"
+F 6 "Molex" H 8450 4850 40  0001 C CNN "Manufacturer"
+F 7 "KK Series" H 8450 4150 40  0001 C CNN "Series"
+F 8 "2-way, header, 2.54mm pitch, vertical, through hole, KK Series" H 8450 4050 40  0001 C CNN "Part Description"
+	1    8450 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Resistors:ECS00058 R7
+U 1 1 53B7E46A
+P 4500 5650
+F 0 "R7" H 4500 5730 40  0000 C CNN
+F 1 "ECS00058" H 4500 5900 40  0001 C CNN
+F 2 "ECFootprints:EC0603" H 4500 5580 30  0001 C CNN
+F 3 "${INTERNAL_PARTS_LIB}/Datasheets/Resistors/Panasonic - ERJ Series - Thick Film.pdf" H 4500 5650 30  0001 C CNN
+F 4 "0R" H 4500 5650 40  0000 C CNN "Component Value"
+F 5 "ERJ3GEY0R00V" H 4500 5550 40  0001 C CNN "Manufacturer Part Number"
+F 6 "Panasonic" H 4500 5800 40  0001 C CNN "Manufacturer"
+F 7 "ERJ Series" H 4500 5450 40  0001 C CNN "Series"
+F 8 "0R, 0603, 0.1W, Jumper" H 4500 5350 40  0001 C CNN "Part Description"
+	1    4500 5650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Resistors:ECS00055 R9
+U 1 1 53B7E49B
+P 7200 3800
+F 0 "R9" H 7200 3880 40  0000 C CNN
+F 1 "ECS00055" H 7200 4050 40  0001 C CNN
+F 2 "ECFootprints:EC1206" H 7200 3730 30  0001 C CNN
+F 3 "~" H 7200 3800 30  0001 C CNN
+F 4 "0R12" H 7200 3800 40  0000 C CNN "Component Value"
+F 5 "CRL1206-FW-R120ELF" H 7200 3700 40  0001 C CNN "Manufacturer Part Number"
+F 6 "Bourns" H 7200 3950 40  0001 C CNN "Manufacturer"
+F 7 "CRL Series" H 7200 3600 40  0001 C CNN "Series"
+F 8 "0R12, 1206, 1%, 0.25W, Thick Film" H 7200 3500 40  0001 C CNN "Part Description"
+	1    7200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors:ECS00048 R4
+U 1 1 53B7E509
+P 6400 5300
+F 0 "R4" H 6400 5380 40  0000 C CNN
+F 1 "ECS00048" H 6400 5550 40  0001 C CNN
+F 2 "ECFootprints:EC0603" H 6400 5230 30  0001 C CNN
+F 3 "~" H 6400 5300 30  0001 C CNN
+F 4 "40K2" H 6400 5300 40  0000 C CNN "Component Value"
+F 5 "ERA3ARB4022V" H 6400 5200 40  0001 C CNN "Manufacturer Part Number"
+F 6 "Panasonic" H 6400 5450 40  0001 C CNN "Manufacturer"
+F 7 "ERA Series" H 6400 5100 40  0001 C CNN "Series"
+F 8 "40K2, 0603, 0.1%, 0.1W, Thin Film" H 6400 5000 40  0001 C CNN "Part Description"
+	1    6400 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Resistors:ECS00046 R3
+U 1 1 53B7E53A
+P 6050 6050
+F 0 "R3" H 6050 6130 40  0000 C CNN
+F 1 "ECS00046" H 6050 6300 40  0001 C CNN
+F 2 "ECFootprints:EC0603" H 6050 5980 30  0001 C CNN
+F 3 "~" H 6050 6050 30  0001 C CNN
+F 4 "215K" H 6050 6050 40  0000 C CNN "Component Value"
+F 5 "ERJ3EKF2153V" H 6050 5950 40  0001 C CNN "Manufacturer Part Number"
+F 6 "Panasonic" H 6050 6200 40  0001 C CNN "Manufacturer"
+F 7 "ERJ Series" H 6050 5850 40  0001 C CNN "Series"
+F 8 "215K, 0603, 1%, 0.1W, Thick Film" H 6050 5750 40  0001 C CNN "Part Description"
+	1    6050 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistors:ECS00047 R5
+U 1 1 53B7E56B
+P 6400 6350
+F 0 "R5" H 6400 6430 40  0000 C CNN
+F 1 "ECS00047" H 6400 6600 40  0001 C CNN
+F 2 "ECFootprints:EC0603" H 6400 6280 30  0001 C CNN
+F 3 "~" H 6400 6350 30  0001 C CNN
+F 4 "330K" H 6400 6350 40  0000 C CNN "Component Value"
+F 5 "ERJ3EKF3303V" H 6400 6250 40  0001 C CNN "Manufacturer Part Number"
+F 6 "Panasonic" H 6400 6500 40  0001 C CNN "Manufacturer"
+F 7 "ERJ Series" H 6400 6150 40  0001 C CNN "Series"
+F 8 "330K,  0603, 1%, 0.1W, Thick Film" H 6400 6050 40  0001 C CNN "Part Description"
+	1    6400 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voltage_Regulators:ECS00036 U2
+U 1 1 53B7E59C
+P 10150 5200
+F 0 "U2" H 9800 5500 40  0000 C CNN
+F 1 "ECS00036" H 10200 5500 40  0001 C CNN
+F 2 "ECFootprints:ECSOT223" H 10150 5100 40  0001 C CNN
+F 3 "~" H 10150 5100 40  0001 C CNN
+F 4 "~" H 9900 5650 40  0001 C CNN "Component Value"
+F 5 "NCP1117ST33T3G" H 10050 5100 40  0000 C CNN "Manufacturer Part Number"
+F 6 "On Semiconductor" H 10050 5000 40  0001 C CNN "Manufacturer"
+F 7 "~" H 10200 5950 40  0001 C CNN "Series"
+F 8 "3.3V Linear Regulator" H 10050 4900 40  0001 C CNN "Part Description"
+	1    10150 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Inductors:ECS00071 L2
+U 1 1 53B7E5CD
+P 6300 3800
+F 0 "L2" V 6250 3800 40  0000 C CNN
+F 1 "ECS00071" V 6150 3800 40  0001 C CNN
+F 2 "ECFootprints:ECS00071F" H 6300 3800 40  0001 C CNN
+F 3 "~" H 6300 3800 40  0001 C CNN
+F 4 "22uH" V 6400 3800 40  0000 C CNN "Component Value"
+F 5 "46223C" V 6500 3800 40  0001 C CNN "Manufacturer Part Number"
+F 6 "Murata" V 6600 3800 40  0001 C CNN "Manufacturer"
+F 7 "4600 Series" V 6700 3800 40  0001 C CNN "Series"
+F 8 "22uH, 1.8A, 0R12" V 6800 3800 40  0001 C CNN "Part Description"
+	1    6300 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connectors:ECS00007 P2
+U 1 1 53B7E809
+P 2100 4150
+F 0 "P2" V 2050 4150 40  0000 C CNN
+F 1 "ECS00007" H 2100 3900 40  0001 C CNN
+F 2 "ECFootprints:ECS00007F" H 1950 4050 40  0001 C CNN
+F 3 "${INTERNAL_PARTS_LIB}/Datasheets/Connectors/JST - PH Series.pdf" V 2050 4150 40  0001 C CNN
+F 4 "2x1" H 2100 3800 40  0001 C CNN "Component Value"
+F 5 "S2B-PH-SM4-TB(LF)(SN)" V 2250 4150 40  0000 C CNN "Manufacturer Part Number"
+F 6 "JST" H 2100 4350 40  0001 C CNN "Manufacturer"
+F 7 "PH Series" H 2100 3700 40  0001 C CNN "Series"
+F 8 "2-way, header, 2mm pitch, right angle, SMD, PH Series" H 2100 3600 40  0001 C CNN "Part Description"
+	1    2100 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diodes:ECS00037 D12
+U 1 1 53B7EB5F
+P 7200 4500
+F 0 "D12" H 7200 4600 40  0000 C CNN
+F 1 "ECS00037" H 7200 4700 40  0001 C CNN
+F 2 "ECFootprints:EC0603_DIODE" H 7200 4500 40  0001 C CNN
+F 3 "~" H 7200 4500 40  0001 C CNN
+F 4 "~" H 7300 4700 40  0001 C CNN "Component Value"
+F 5 "CD0603-B0240" H 7200 4400 40  0000 C CNN "Manufacturer Part Number"
+F 6 "Bourns" H 7200 4300 40  0001 C CNN "Manufacturer"
+F 7 "~" H 7600 5000 40  0001 C CNN "Series"
+F 8 "Schottky, Single, 0.1A, SMD" H 7200 4200 40  0001 C CNN "Part Description"
+	1    7200 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 53B7ED25
+P 6500 4150
+F 0 "#PWR04" H 6500 4150 30  0001 C CNN
+F 1 "GND" H 6500 4080 30  0001 C CNN
+F 2 "~" H 6500 4150 60  0000 C CNN
+F 3 "~" H 6500 4150 60  0000 C CNN
+	1    6500 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 5050 6400 5050
+Wire Wire Line
+	6400 5050 6950 5050
+Wire Wire Line
+	6950 5050 7400 5050
+Wire Wire Line
+	7400 5050 7650 5050
+Wire Wire Line
+	5650 4750 5600 4750
+Wire Wire Line
+	5650 3800 5650 4050
+Wire Wire Line
+	5650 4050 5650 4200
+Wire Wire Line
+	5650 4200 5650 4750
+Wire Wire Line
+	5650 3800 6000 3800
+Wire Wire Line
+	5950 4050 5650 4050
+Connection ~ 5650 4050
+Wire Wire Line
+	6350 4050 6500 4050
+Wire Wire Line
+	6500 4050 6500 4150
+Wire Wire Line
+	6600 3800 6850 3800
+Wire Wire Line
+	6850 3800 6950 3800
+Wire Wire Line
+	6850 3800 6850 4950
+Wire Wire Line
+	6850 4950 5600 4950
+Connection ~ 6850 3800
+Wire Wire Line
+	5900 4300 5900 4200
+Wire Wire Line
+	5900 4200 5650 4200
+Connection ~ 5650 4200
+Wire Wire Line
+	5900 4700 5900 4850
+Wire Wire Line
+	5600 4850 5900 4850
+Wire Wire Line
+	5900 4850 6300 4850
+Wire Wire Line
+	6300 4850 6300 4500
+Wire Wire Line
+	6300 4500 7000 4500
+Connection ~ 5900 4850
+Wire Wire Line
+	7450 3800 7650 3800
+Wire Wire Line
+	7650 3800 7650 4500
+Wire Wire Line
+	7650 4500 7650 5050
+Wire Wire Line
+	7400 4500 7650 4500
+Connection ~ 7650 4500
+Connection ~ 6400 5050
+Wire Wire Line
+	5800 6050 5700 6050
+Wire Wire Line
+	5700 6050 5700 5250
+Wire Wire Line
+	5700 5250 5600 5250
+Wire Wire Line
+	3500 5050 4200 5050
+Wire Wire Line
+	4200 5050 4600 5050
+Wire Wire Line
+	3500 5150 3950 5150
+Wire Wire Line
+	3950 5150 4600 5150
+Wire Wire Line
+	3950 5000 3950 5150
+Connection ~ 3950 5150
+Wire Wire Line
+	4200 5000 4200 5050
+Connection ~ 4200 5050
+Wire Wire Line
+	3950 4500 3950 4400
+Wire Wire Line
+	3950 4400 4100 4400
+Wire Wire Line
+	4100 4400 4200 4400
+Wire Wire Line
+	4200 4400 4200 4500
+Wire Wire Line
+	9300 5050 9450 5050
+Wire Wire Line
+	9450 5050 9600 5050
+Wire Wire Line
+	9300 5250 9300 5050
+Wire Wire Line
+	6950 5250 6950 5050
+Connection ~ 6950 5050
+Wire Wire Line
+	7400 5250 7400 5050
+Connection ~ 7400 5050
+$Comp
+L power:GND #PWR09
+U 1 1 53B7F754
+P 6400 6700
+F 0 "#PWR09" H 6400 6700 30  0001 C CNN
+F 1 "GND" H 6400 6630 30  0001 C CNN
+F 2 "~" H 6400 6700 60  0000 C CNN
+F 3 "~" H 6400 6700 60  0000 C CNN
+	1    6400 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 53B7F7E2
+P 4500 6700
+F 0 "#PWR010" H 4500 6700 30  0001 C CNN
+F 1 "GND" H 4500 6630 30  0001 C CNN
+F 2 "~" H 4500 6700 60  0000 C CNN
+F 3 "~" H 4500 6700 60  0000 C CNN
+	1    4500 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 6700 4500 5900
+Wire Wire Line
+	4500 5400 4500 5250
+Wire Wire Line
+	4500 5250 4600 5250
+Wire Wire Line
+	9550 5150 9600 5150
+Wire Wire Line
+	10500 5050 10550 5050
+Wire Wire Line
+	10550 5050 10650 5050
+Wire Wire Line
+	10500 5150 10550 5150
+Wire Wire Line
+	10550 5150 10550 5050
+Connection ~ 10550 5050
+Wire Wire Line
+	10650 5000 10650 5050
+Wire Wire Line
+	10650 5050 10650 5250
+$Comp
+L power:+3.3V #PWR012
+U 1 1 53B80115
+P 10650 5000
+F 0 "#PWR012" H 10650 4960 30  0001 C CNN
+F 1 "+3.3V" H 10650 5110 30  0000 C CNN
+F 2 "~" H 10650 5000 60  0000 C CNN
+F 3 "~" H 10650 5000 60  0000 C CNN
+	1    10650 5000
+	1    0    0    -1  
+$EndComp
+Connection ~ 10650 5050
+Text Label 3500 5050 0    60   ~ 0
+~CHARGE
+Text Label 3500 5150 0    60   ~ 0
+~FAULT
+$Comp
+L Connectors:ECS00013 P9
+U 1 1 53B8059F
+P 2400 2350
+F 0 "P9" V 2350 2350 40  0000 C CNN
+F 1 "ECS00013" H 2400 2150 40  0001 C CNN
+F 2 "ECFootprints:ECS00013F" H 2250 2250 40  0001 C CNN
+F 3 "${INTERNAL_PARTS_LIB}/Datasheets/Connectors/Molex - KK Series - Through Hole Headers.pdf" V 2350 2350 40  0001 C CNN
+F 4 "3x1" H 2400 2050 40  0001 C CNN "Component Value"
+F 5 "22-28-4030" H 2300 2150 40  0000 C CNN "Manufacturer Part Number"
+F 6 "Molex" H 2400 1950 40  0001 C CNN "Manufacturer"
+F 7 "KK Series" H 2400 1850 40  0001 C CNN "Series"
+F 8 "3-way, header, 2.54mm pitch, vertical, through hole, KK Series" H 2450 1750 40  0001 C CNN "Part Description"
+	1    2400 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connectors:ECS00067 P6
+U 1 1 53B805AA
+P 2050 2900
+F 0 "P6" V 2000 2900 40  0000 C CNN
+F 1 "ECS00067" H 2050 2650 40  0001 C CNN
+F 2 "ECFootprints:ECS00067F" H 1900 2800 40  0001 C CNN
+F 3 "${INTERNAL_PARTS_LIB}/Datasheets/Connectors/JST - PH Series.pdf" V 2000 2900 40  0001 C CNN
+F 4 "2x1" H 2050 2550 40  0001 C CNN "Component Value"
+F 5 "B2B-PH-SM4-TB(LF)(SN)" H 1800 3100 40  0001 C CNN "Manufacturer Part Number"
+F 6 "JST" H 2050 3100 40  0001 C CNN "Manufacturer"
+F 7 "PH Series" H 2050 2450 40  0001 C CNN "Series"
+F 8 "2-way, header, 2mm pitch, vertical, SMD, PH Series" H 2050 2350 40  0001 C CNN "Part Description"
+	1    2050 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Capacitors:ECS00053 C4
+U 1 1 53B805F1
+P 3400 4450
+F 0 "C4" H 3400 4550 40  0000 L CNN
+F 1 "ECS00053" V 3150 4300 40  0001 L CNN
+F 2 "ECFootprints:EC2917" H 3438 4300 30  0001 C CNN
+F 3 "~" H 3400 4450 60  0001 C CNN
+F 4 "10uF" H 3300 4350 40  0000 C CNN "Component Value"
+F 5 "TPSD106K035R0125" V 3550 4450 40  0000 C CNN "Manfacturer Part Number"
+F 6 "AVX" V 3250 4450 40  0001 C CNN "Manufacturer"
+F 7 "TPS Series" V 3650 4450 40  0001 C CNN "Series"
+F 8 "10uF, 2917, 10%, 35V, Tantalum" V 3750 4400 40  0001 C CNN "Part Description"
+	1    3400 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 53B805F7
+P 3400 6700
+F 0 "#PWR013" H 3400 6700 30  0001 C CNN
+F 1 "GND" H 3400 6630 30  0001 C CNN
+F 2 "~" H 3400 6700 60  0000 C CNN
+F 3 "~" H 3400 6700 60  0000 C CNN
+	1    3400 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 6700 3400 4650
+Wire Wire Line
+	4500 4000 4500 4750
+Wire Wire Line
+	4500 4750 4500 4850
+Wire Wire Line
+	4500 4850 4500 4950
+Wire Wire Line
+	4500 4950 4600 4950
+Wire Wire Line
+	4600 4850 4500 4850
+Connection ~ 4500 4850
+Wire Wire Line
+	4600 4750 4500 4750
+Connection ~ 4500 4750
+Wire Wire Line
+	3400 4250 3400 4000
+Wire Wire Line
+	3400 4000 4500 4000
+Connection ~ 4500 4000
+$Comp
+L power:GND #PWR014
+U 1 1 53B80945
+P 2500 3200
+F 0 "#PWR014" H 2500 3200 30  0001 C CNN
+F 1 "GND" H 2500 3130 30  0001 C CNN
+F 2 "~" H 2500 3200 60  0000 C CNN
+F 3 "~" H 2500 3200 60  0000 C CNN
+	1    2500 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 3200 2500 3000
+Wire Wire Line
+	2500 3000 2400 3000
+Wire Wire Line
+	2400 2800 2850 2800
+Wire Wire Line
+	2850 2800 2850 2450
+Wire Wire Line
+	2850 2450 2750 2450
+Wire Wire Line
+	2200 1450 2850 1450
+Wire Wire Line
+	2850 1450 2850 2250
+Wire Wire Line
+	2850 2250 2750 2250
+$Comp
+L power:GND #PWR015
+U 1 1 53B80BA4
+P 2350 2000
+F 0 "#PWR015" H 2350 2000 30  0001 C CNN
+F 1 "GND" H 2350 1930 30  0001 C CNN
+F 2 "~" H 2350 2000 60  0000 C CNN
+F 3 "~" H 2350 2000 60  0000 C CNN
+	1    2350 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2000 2350 1850
+Wire Wire Line
+	2350 1850 2200 1850
+NoConn ~ 2200 1550
+NoConn ~ 2200 1650
+NoConn ~ 2200 1750
+NoConn ~ 1200 1850
+NoConn ~ 1200 1750
+NoConn ~ 1200 1550
+NoConn ~ 1200 1450
+Wire Wire Line
+	10550 4550 10700 4550
+Wire Wire Line
+	10700 4550 10700 4500
+Wire Wire Line
+	9800 4550 9950 4550
+Wire Wire Line
+	9800 4550 9800 4500
+$Comp
+L power:+3.3V #PWR016
+U 1 1 53B812A2
+P 9800 4500
+F 0 "#PWR016" H 9800 4460 30  0001 C CNN
+F 1 "+3.3V" H 9800 4610 30  0000 C CNN
+F 2 "~" H 9800 4500 60  0000 C CNN
+F 3 "~" H 9800 4500 60  0000 C CNN
+	1    9800 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VAA #PWR017
+U 1 1 53B812B1
+P 10700 4500
+F 0 "#PWR017" H 10700 4560 30  0001 C CNN
+F 1 "VAA" H 10700 4610 30  0000 C CNN
+F 2 "~" H 10700 4500 60  0000 C CNN
+F 3 "~" H 10700 4500 60  0000 C CNN
+	1    10700 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 53B8152D
+P 5100 6700
+F 0 "#PWR018" H 5100 6700 30  0001 C CNN
+F 1 "GND" H 5100 6630 30  0001 C CNN
+F 2 "~" H 5100 6700 60  0000 C CNN
+F 3 "~" H 5100 6700 60  0000 C CNN
+	1    5100 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 6700 5100 5500
+Wire Wire Line
+	7050 2450 7450 2450
+Wire Wire Line
+	7050 2550 7600 2550
+Wire Wire Line
+	7050 2650 7750 2650
+Wire Wire Line
+	7050 2750 7850 2750
+Wire Wire Line
+	7050 1200 8250 1200
+Wire Wire Line
+	7050 1300 8250 1300
+Wire Wire Line
+	7050 1400 8250 1400
+Wire Wire Line
+	7050 1500 8250 1500
+Wire Wire Line
+	7050 2000 8250 2000
+NoConn ~ 7050 1800
+NoConn ~ 7050 1900
+Text Label 8250 1200 2    60   ~ 0
+SDA
+Text Label 8250 1300 2    60   ~ 0
+SCL
+Text Label 8250 1400 2    60   ~ 0
+~FAULT
+Text Label 8250 1500 2    60   ~ 0
+~CHARGE
+Text Label 8250 2000 2    60   ~ 0
+AIR_PRESSURE_1_A/D
+$Comp
+L power:VDD #PWR019
+U 1 1 53B81EED
+P 7600 2550
+F 0 "#PWR019" H 7600 2500 20  0001 C CNN
+F 1 "VDD" H 7600 2650 30  0000 C CNN
+F 2 "~" H 7600 2550 60  0000 C CNN
+F 3 "~" H 7600 2550 60  0000 C CNN
+	1    7600 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR020
+U 1 1 53B81EFC
+P 7750 2650
+F 0 "#PWR020" H 7750 2610 30  0001 C CNN
+F 1 "+3.3V" H 7750 2760 30  0000 C CNN
+F 2 "~" H 7750 2650 60  0000 C CNN
+F 3 "~" H 7750 2650 60  0000 C CNN
+	1    7750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 53B81F0B
+P 7850 2850
+F 0 "#PWR021" H 7850 2850 30  0001 C CNN
+F 1 "GND" H 7850 2780 30  0001 C CNN
+F 2 "~" H 7850 2850 60  0000 C CNN
+F 3 "~" H 7850 2850 60  0000 C CNN
+	1    7850 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 2750 7850 2850
+$Comp
+L power:VCC #PWR022
+U 1 1 53B81FF3
+P 7450 2450
+F 0 "#PWR022" H 7450 2550 30  0001 C CNN
+F 1 "VCC" H 7450 2550 30  0000 C CNN
+F 2 "~" H 7450 2450 60  0000 C CNN
+F 3 "~" H 7450 2450 60  0000 C CNN
+	1    7450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR023
+U 1 1 53B8200A
+P 3050 3350
+F 0 "#PWR023" H 3050 3450 30  0001 C CNN
+F 1 "VCC" H 3050 3450 30  0000 C CNN
+F 2 "~" H 3050 3350 60  0000 C CNN
+F 3 "~" H 3050 3350 60  0000 C CNN
+	1    3050 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3400 3050 3350
+Wire Wire Line
+	5400 1250 5950 1250
+Wire Wire Line
+	5400 1450 5950 1450
+Wire Wire Line
+	5950 1450 5950 1550
+$Comp
+L power:GND #PWR024
+U 1 1 53B82392
+P 5950 1550
+F 0 "#PWR024" H 5950 1550 30  0001 C CNN
+F 1 "GND" H 5950 1480 30  0001 C CNN
+F 2 "~" H 5950 1550 60  0000 C CNN
+F 3 "~" H 5950 1550 60  0000 C CNN
+	1    5950 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR025
+U 1 1 53B8239D
+P 5950 1250
+F 0 "#PWR025" H 5950 1200 20  0001 C CNN
+F 1 "VDD" H 5950 1350 30  0000 C CNN
+F 2 "~" H 5950 1250 60  0000 C CNN
+F 3 "~" H 5950 1250 60  0000 C CNN
+	1    5950 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 1300 10550 1300
+Wire Wire Line
+	9400 1400 10550 1400
+Text Label 10550 1300 2    60   ~ 0
+SDA
+Text Label 10550 1400 2    60   ~ 0
+SCL
+Text Label 10550 2100 2    60   ~ 0
+AIR_PRESSURE_1_A/D
+Wire Wire Line
+	9400 1500 10550 1500
+$Comp
+L power:VAA #PWR026
+U 1 1 53B830AD
+P 10550 1200
+F 0 "#PWR026" H 10550 1260 30  0001 C CNN
+F 1 "VAA" H 10550 1310 30  0000 C CNN
+F 2 "~" H 10550 1200 60  0000 C CNN
+F 3 "~" H 10550 1200 60  0000 C CNN
+	1    10550 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 1500 10550 1600
+$Comp
+L Resistors:ECS00058 R6
+U 1 1 53B834C9
+P 6000 5450
+F 0 "R6" H 6000 5530 40  0000 C CNN
+F 1 "ECS00058" H 6000 5700 40  0001 C CNN
+F 2 "ECFootprints:EC0603" H 6000 5380 30  0001 C CNN
+F 3 "~" H 6000 5450 30  0001 C CNN
+F 4 "0R" H 6000 5450 40  0000 C CNN "Component Value"
+F 5 "ERJ3GEY0R00V" H 6000 5350 40  0001 C CNN "Manufacturer Part Number"
+F 6 "Panasonic" H 6000 5600 40  0001 C CNN "Manufacturer"
+F 7 "ERJ Series" H 6000 5250 40  0001 C CNN "Series"
+F 8 "0R, 0603, 0.1W, Jumper" H 6000 5150 40  0001 C CNN "Part Description"
+	1    6000 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 53B834E5
+P 6000 5750
+F 0 "#PWR027" H 6000 5750 30  0001 C CNN
+F 1 "GND" H 6000 5680 30  0001 C CNN
+F 2 "~" H 6000 5750 60  0000 C CNN
+F 3 "~" H 6000 5750 60  0000 C CNN
+	1    6000 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 5150 6000 5150
+Wire Wire Line
+	6000 5150 6000 5200
+Wire Wire Line
+	6000 5700 6000 5750
+Text Notes 5750 1750 2    60   ~ 0
+Battery Connector
+$Comp
+L power:+3.3V #PWR028
+U 1 1 53B8A856
+P 4100 4350
+F 0 "#PWR028" H 4100 4310 30  0001 C CNN
+F 1 "+3.3V" H 4100 4460 30  0000 C CNN
+F 2 "~" H 4100 4350 60  0000 C CNN
+F 3 "~" H 4100 4350 60  0000 C CNN
+	1    4100 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 4350 4100 4400
+Connection ~ 4100 4400
+Text Notes 5750 6500 0    60   ~ 0
+R4 and R5\nare 0.1%\nTolerance\n
+Text Notes 6050 5550 0    60   ~ 0
+Not\nPlaced
+$Comp
+L Capacitors:ECS00050 C3
+U 1 1 53B8C2C0
+P 9300 5450
+F 0 "C3" H 9300 5550 40  0000 L CNN
+F 1 "ECS00050" V 9050 5300 40  0001 L CNN
+F 2 "ECFootprints:EC0805" H 9338 5300 30  0001 C CNN
+F 3 "~" H 9300 5450 60  0001 C CNN
+F 4 "10uF" H 9200 5350 40  0000 C CNN "Component Value"
+F 5 "GRM21BR61A106KE19L" V 9450 5450 40  0001 C CNN "Manfacturer Part Number"
+F 6 "Murata" V 9150 5450 40  0001 C CNN "Manufacturer"
+F 7 "GRM Series" V 9550 5450 40  0001 C CNN "Series"
+F 8 "10uF, 0805, 10%, 10V, X5R, Ceramic" V 9650 5350 40  0001 C CNN "Part Description"
+	1    9300 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors:ECS00050 C5
+U 1 1 53B8C2F4
+P 10650 5450
+F 0 "C5" H 10650 5550 40  0000 L CNN
+F 1 "ECS00050" V 10400 5300 40  0001 L CNN
+F 2 "ECFootprints:EC0805" H 10688 5300 30  0001 C CNN
+F 3 "~" H 10650 5450 60  0001 C CNN
+F 4 "10uF" H 10550 5350 40  0000 C CNN "Component Value"
+F 5 "GRM21BR61A106KE19L" V 10800 5450 40  0001 C CNN "Manfacturer Part Number"
+F 6 "Murata" V 10500 5450 40  0001 C CNN "Manufacturer"
+F 7 "GRM Series" V 10900 5450 40  0001 C CNN "Series"
+F 8 "10uF, 0805, 10%, 10V, X5R, Ceramic" V 11000 5350 40  0001 C CNN "Part Description"
+	1    10650 5450
+	1    0    0    -1  
+$EndComp
+Text Notes 6900 3550 0    60   ~ 0
+Max charge\ncurrent = 885mA
+Text Notes 1400 1050 0    60   ~ 0
+Allows battery to\nbe charged from\n5V USB
+Text Notes 5600 4100 2    60   ~ 0
+Trace for SW pin\nshould be kept\nas short as\npossible
+Text Notes 2800 4900 0    60   ~ 0
+Place C4 as\nclose to U1\nas possible
+Text Notes 7650 5700 0    60   ~ 0
+Place C1\nand C6\nas close\nto U1 as\npossible
+Text Notes 9800 5850 0    60   ~ 0
+Place C3\nand C5\nas close\nto U2 as\npossible
+Text Notes 5600 4450 2    60   ~ 0
+C2 should be\nkept as close\nto U1 as possible
+Text Notes 5650 5850 2    60   ~ 0
+Keep VFB\ntraces\nas short as\npossible
+Text Notes 1850 2800 2    60   ~ 0
+Allows battery\nto be charged\nfrom external\nsource
+$Comp
+L power:VDD #PWR029
+U 1 1 53C0AAC8
+P 9450 5000
+F 0 "#PWR029" H 9450 4950 20  0001 C CNN
+F 1 "VDD" H 9450 5100 30  0000 C CNN
+F 2 "~" H 9450 5000 60  0000 C CNN
+F 3 "~" H 9450 5000 60  0000 C CNN
+	1    9450 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 5000 9450 5050
+Connection ~ 9450 5050
+$Comp
+L power:GND #PWR030
+U 1 1 53C0B7C1
+P 10550 1600
+F 0 "#PWR030" H 10550 1600 30  0001 C CNN
+F 1 "GND" H 10550 1530 30  0001 C CNN
+F 2 "~" H 10550 1600 60  0000 C CNN
+F 3 "~" H 10550 1600 60  0000 C CNN
+	1    10550 1600
+	1    0    0    -1  
+$EndComp
+Text Notes 7500 3050 2    60   ~ 0
+To Main Board
+$Comp
+L Diodes:ECS00095 D11
+U 1 1 53DC19FA
+P 6150 4050
+F 0 "D11" H 6150 4150 40  0000 C CNN
+F 1 "ECS00095" H 6150 4250 40  0001 C CNN
+F 2 "ECFootprints:ECDO-214AC(SMA)" H 6150 4050 40  0001 C CNN
+F 3 "~" H 6150 4050 40  0001 C CNN
+F 4 "~" H 6250 4250 40  0001 C CNN "Component Value"
+F 5 "STPS2H100A" H 6150 3950 40  0000 C CNN "Manufacturer Part Number"
+F 6 "ST Microelectronics" H 6150 3850 40  0001 C CNN "Manufacturer"
+F 7 "STPS2H100" H 6150 4350 40  0001 C CNN "Series"
+F 8 "Schottky, Single, 2A, SMD" H 6150 3750 40  0001 C CNN "Part Description"
+	1    6150 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Misc:HOLE H1
+U 1 1 53DC21F9
+P 9500 3200
+F 0 "H1" H 9500 3350 40  0000 C CNN
+F 1 "HOLE" H 9500 3050 40  0000 C CNN
+F 2 "ECFootprints:HOLE_3.0MM" H 9500 3200 60  0001 C CNN
+F 3 "~" H 9500 3200 60  0000 C CNN
+	1    9500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Misc:HOLE H2
+U 1 1 53DC2206
+P 9800 3200
+F 0 "H2" H 9800 3350 40  0000 C CNN
+F 1 "HOLE" H 9800 3050 40  0000 C CNN
+F 2 "ECFootprints:HOLE_3.0MM" H 9800 3200 60  0001 C CNN
+F 3 "~" H 9800 3200 60  0000 C CNN
+	1    9800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Misc:HOLE H3
+U 1 1 53DC220C
+P 10100 3200
+F 0 "H3" H 10100 3350 40  0000 C CNN
+F 1 "HOLE" H 10100 3050 40  0000 C CNN
+F 2 "ECFootprints:HOLE_3.0MM" H 10100 3200 60  0001 C CNN
+F 3 "~" H 10100 3200 60  0000 C CNN
+	1    10100 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Misc:HOLE H4
+U 1 1 53DC2212
+P 10400 3200
+F 0 "H4" H 10400 3350 40  0000 C CNN
+F 1 "HOLE" H 10400 3050 40  0000 C CNN
+F 2 "ECFootprints:HOLE_3.0MM" H 10400 3200 60  0001 C CNN
+F 3 "~" H 10400 3200 60  0000 C CNN
+	1    10400 3200
+	1    0    0    -1  
+$EndComp
+Text Notes 9700 3550 0    60   ~ 0
+MECHANICAL
+Wire Notes Line
+	9250 2900 10650 2900
+Wire Notes Line
+	10650 3650 9250 3650
+Wire Notes Line
+	9250 3650 9250 2900
+NoConn ~ 7050 2100
+Wire Wire Line
+	9400 2200 10550 2200
+NoConn ~ 9400 2300
+Wire Wire Line
+	10550 2100 9400 2100
+Wire Wire Line
+	9400 2000 10550 2000
+Wire Wire Line
+	10550 2200 10550 2300
+$Comp
+L power:GND #PWR031
+U 1 1 53DC316C
+P 10550 2300
+F 0 "#PWR031" H 10550 2300 30  0001 C CNN
+F 1 "GND" H 10550 2230 30  0001 C CNN
+F 2 "~" H 10550 2300 60  0000 C CNN
+F 3 "~" H 10550 2300 60  0000 C CNN
+	1    10550 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VAA #PWR032
+U 1 1 53DC3232
+P 10550 2000
+F 0 "#PWR032" H 10550 2060 30  0001 C CNN
+F 1 "VAA" H 10550 2110 30  0000 C CNN
+F 2 "~" H 10550 2000 60  0000 C CNN
+F 3 "~" H 10550 2000 60  0000 C CNN
+	1    10550 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 1200 10550 1200
+$Comp
+L Connectors:ECS00068 P12
+U 1 1 53DDB257
+P 9050 1350
+F 0 "P12" V 9000 1350 40  0000 C CNN
+F 1 "ECS00068" V 9100 1350 40  0001 C CNN
+F 2 "ECFootprints:ECS00068F" H 8900 1250 60  0001 C CNN
+F 3 "~" V 9000 1350 60  0000 C CNN
+F 4 "4x1" H 9050 1000 40  0001 C CNN "Component Value"
+F 5 "501953-0407" V 9200 1350 40  0000 C CNN "Manufacturer Part Number"
+F 6 "Molex" H 9050 1100 40  0001 C CNN "Manufacturer"
+F 7 "~" V 9400 1750 40  0001 C CNN "Series"
+F 8 "4-way, header, 1mm pitch, right angle, SMD, Pico-Clasp 501953 Series" H 9100 900 40  0001 C CNN "Part Description"
+	1    9050 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connectors:ECS00068 P13
+U 1 1 53DDB2B7
+P 9050 2150
+F 0 "P13" V 9000 2150 40  0000 C CNN
+F 1 "ECS00068" V 9100 2150 40  0001 C CNN
+F 2 "ECFootprints:ECS00068F" H 8900 2050 60  0001 C CNN
+F 3 "~" V 9000 2150 60  0000 C CNN
+F 4 "4x1" H 9050 1800 40  0001 C CNN "Component Value"
+F 5 "501953-0407" V 9200 2150 40  0000 C CNN "Manufacturer Part Number"
+F 6 "Molex" H 9050 1900 40  0001 C CNN "Manufacturer"
+F 7 "~" V 9400 2550 40  0001 C CNN "Series"
+F 8 "4-way, header, 1mm pitch, right angle, SMD, Pico-Clasp 501953 Series" H 9100 1700 40  0001 C CNN "Part Description"
+	1    9050 2150
+	-1   0    0    1   
+$EndComp
+Text Notes 10250 1800 2    60   ~ 0
+Connect to Sensors
+Text Notes 6800 1000 0    60   ~ 0
+Board to Board Connectors
+$Comp
+L power:GND #PWR011
+U 1 1 53B80095
+P 10650 6050
+F 0 "#PWR011" H 10650 6050 30  0001 C CNN
+F 1 "GND" H 10650 5980 30  0001 C CNN
+F 2 "~" H 10650 6050 60  0000 C CNN
+F 3 "~" H 10650 6050 60  0000 C CNN
+	1    10650 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 53B7F74E
+P 6950 6050
+F 0 "#PWR08" H 6950 6050 30  0001 C CNN
+F 1 "GND" H 6950 5980 30  0001 C CNN
+F 2 "~" H 6950 6050 60  0000 C CNN
+F 3 "~" H 6950 6050 60  0000 C CNN
+	1    6950 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 53B7F748
+P 7400 6050
+F 0 "#PWR07" H 7400 6050 30  0001 C CNN
+F 1 "GND" H 7400 5980 30  0001 C CNN
+F 2 "~" H 7400 6050 60  0000 C CNN
+F 3 "~" H 7400 6050 60  0000 C CNN
+	1    7400 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 53B7F742
+P 9300 6050
+F 0 "#PWR06" H 9300 6050 30  0001 C CNN
+F 1 "GND" H 9300 5980 30  0001 C CNN
+F 2 "~" H 9300 6050 60  0000 C CNN
+F 3 "~" H 9300 6050 60  0000 C CNN
+	1    9300 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 53B7F41B
+P 9550 6050
+F 0 "#PWR05" H 9550 6050 30  0001 C CNN
+F 1 "GND" H 9550 5980 30  0001 C CNN
+F 2 "~" H 9550 6050 60  0000 C CNN
+F 3 "~" H 9550 6050 60  0000 C CNN
+	1    9550 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 6050 6950 5650
+Wire Wire Line
+	7400 5650 7400 6050
+Wire Wire Line
+	9300 5650 9300 6050
+Wire Wire Line
+	9550 5150 9550 6050
+Wire Wire Line
+	10650 6050 10650 5650
+$Comp
+L power:GND #PWR0101
+U 1 1 5EA48742
+P 2450 4250
+F 0 "#PWR0101" H 2450 4250 30  0001 C CNN
+F 1 "GND" H 2450 4180 30  0001 C CNN
+F 2 "~" H 2450 4250 60  0000 C CNN
+F 3 "~" H 2450 4250 60  0000 C CNN
+	1    2450 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4050 2450 3400
+Wire Wire Line
+	2450 3400 3050 3400
+Text Notes 1250 4200 0    60   ~ 0
+SOLAR PANEL
+Connection ~ 3050 3400
+Wire Wire Line
+	3050 3400 3800 3400
+Wire Wire Line
+	2750 2350 3800 2350
+$Comp
+L Connectors:ECS00013 P3
+U 1 1 53B7E413
+P 3450 3050
+F 0 "P3" V 3400 3050 40  0000 C CNN
+F 1 "ECS00013" H 3450 2850 40  0001 C CNN
+F 2 "ECFootprints:ECS00013F" H 3300 2950 40  0001 C CNN
+F 3 "${INTERNAL_PARTS_LIB}/Datasheets/Connectors/Molex - KK Series - Through Hole Headers.pdf" V 3400 3050 40  0001 C CNN
+F 4 "3x1" H 3450 2750 40  0001 C CNN "Component Value"
+F 5 "22-28-4030" H 3350 2850 40  0000 C CNN "Manufacturer Part Number"
+F 6 "Molex" H 3450 2650 40  0001 C CNN "Manufacturer"
+F 7 "KK Series" H 3450 2550 40  0001 C CNN "Series"
+F 8 "3-way, header, 2.54mm pitch, vertical, through hole, KK Series" H 3500 2450 40  0001 C CNN "Part Description"
+	1    3450 3050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3150 3800 3400
+Wire Wire Line
+	3800 2950 3800 2350
+Wire Wire Line
+	3800 3050 4500 3050
+Wire Wire Line
+	4500 3050 4500 4000
+Wire Notes Line
+	10650 2900 10650 3650
+Wire Wire Line
+	6400 6100 6400 6050
+Wire Wire Line
+	6300 6050 6400 6050
+Connection ~ 6400 6050
+Wire Wire Line
+	6400 6050 6400 5550
+Wire Wire Line
+	6400 6600 6400 6700
+Wire Wire Line
+	8350 4950 8350 5050
+Wire Wire Line
+	8350 5050 7650 5050
+Connection ~ 7650 5050
+Wire Wire Line
+	8550 4950 8550 5050
+Wire Wire Line
+	8550 5050 9300 5050
+Connection ~ 9300 5050
+Text Notes 8050 4350 0    60   ~ 0
+Short P4 to connect\nCharging circuit with\nbattery
+$EndSCHEMATC

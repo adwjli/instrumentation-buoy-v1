@@ -1,0 +1,623 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Capacitors_ECS00050
+#
+DEF Capacitors_ECS00050 C 0 10 N Y 1 F N
+F0 "C" 0 100 40 H V L CNN
+F1 "Capacitors_ECS00050" -250 -150 40 V I L CNN
+F2 "" 38 -150 30 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "10uF" -100 -100 40 H V C CNN "Component Value"
+F5 "GRM21BR61A106KE19L" 150 0 40 V I C CNN "Manfacturer Part Number"
+F6 "Murata" -150 0 40 V I C CNN "Manufacturer"
+F7 "GRM Series" 250 0 40 V I C CNN "Series"
+F8 "10uF, 0805, 10%, 10V, X5R, Ceramic" 350 -100 40 V I C CNN "Part Description"
+$FPLIST
+ EC0805
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitors_ECS00052
+#
+DEF Capacitors_ECS00052 C 0 10 N Y 1 F N
+F0 "C" 0 100 40 H V L CNN
+F1 "Capacitors_ECS00052" -250 -150 40 V I L CNN
+F2 "ECFootprints:EC0603_C" 38 -150 30 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "1uF" -100 -100 40 H V C CNN "Component Value"
+F5 "GRM188R61H105KAALD" 150 0 40 V I C CNN "Manfacturer Part Number"
+F6 "Murata" -150 0 40 V I C CNN "Manufacturer"
+F7 "GRM Series" 250 0 40 V I C CNN "Series"
+F8 "1uF, 0603, 10%, 50V, X5R, Ceramic" 350 -50 40 V I C CNN "Part Description"
+$FPLIST
+ EC0603_C
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitors_ECS00053
+#
+DEF Capacitors_ECS00053 C 0 10 N Y 1 F N
+F0 "C" 0 100 40 H V L CNN
+F1 "Capacitors_ECS00053" -250 -150 40 V I L CNN
+F2 "" 38 -150 30 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "10uF" -100 -100 40 H V C CNN "Component Value"
+F5 "TPSD106K035R0125" 150 0 40 V I C CNN "Manfacturer Part Number"
+F6 "AVX" -150 0 40 V I C CNN "Manufacturer"
+F7 "TPS Series" 250 0 40 V I C CNN "Series"
+F8 "10uF, 2917, 10%, 35V, Tantalum" 350 -50 40 V I C CNN "Part Description"
+$FPLIST
+ EC2917
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitors_ECS00054
+#
+DEF Capacitors_ECS00054 C 0 10 N Y 1 F N
+F0 "C" 0 100 40 H V L CNN
+F1 "Capacitors_ECS00054" -250 -150 40 V I L CNN
+F2 "" 38 -150 30 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "100uF" -100 -100 40 H V C CNN "Component Value"
+F5 "TPSD107K016R0060" 150 0 40 V I C CNN "Manfacturer Part Number"
+F6 "AVX" -150 0 40 V I C CNN "Manufacturer"
+F7 "TPS Series" 250 0 40 V I C CNN "Series"
+F8 "100uF, 2917, 10%, 16V, Tantalum" 350 -50 40 V I C CNN "Part Description"
+$FPLIST
+ EC2917
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Charge_Controllers_ECS00043
+#
+DEF Charge_Controllers_ECS00043 U 0 40 Y Y 1 F N
+F0 "U" -300 400 42 H V C CNN
+F1 "Charge_Controllers_ECS00043" 0 550 40 H I C CNN
+F2 "" -100 150 40 H I C CNN
+F3 "" -100 150 40 H I C CNN
+F4 "LT3652EMSE#PBF" 100 400 40 H V C CNN "Manufacturer Part Number"
+F5 "Linear Technology" 0 650 40 H I C CNN "Manufacturer"
+F6 "Switch Mode Charge Controller with MPPT" -50 750 40 H I C CNN "Part Description"
+$FPLIST
+ ECMSOP-12D
+$ENDFPLIST
+DRAW
+S -350 -350 350 350 0 1 0 f
+X VIN 1 -500 250 150 R 40 40 1 1 U
+X SENSE 10 500 50 150 L 40 40 1 1 U
+X BOOST 11 500 150 150 L 40 40 1 1 w
+X SW 12 500 250 150 L 40 40 1 1 U
+X SGND 13 0 -500 150 U 50 50 1 1 I
+X VIN_REG 2 -500 150 150 R 40 40 1 1 U
+X ~SHDN 3 -500 50 150 R 40 40 1 1 U
+X ~CHRG 4 -500 -50 150 R 40 40 1 1 U
+X ~FAULT 5 -500 -150 150 R 40 40 1 1 U
+X TIMER 6 -500 -250 150 R 40 40 1 1 U
+X VFB 7 500 -250 150 L 40 40 1 1 I
+X NTC 8 500 -150 150 L 40 40 1 1 I
+X BAT 9 500 -50 150 L 40 40 1 1 U
+ENDDRAW
+ENDDEF
+#
+# Connectors_ECS00004
+#
+DEF Connectors_ECS00004 P 0 40 Y N 1 F N
+F0 "P" -50 0 40 V V C CNN
+F1 "Connectors_ECS00004" 0 -250 40 H I C CNN
+F2 "" -150 -100 40 V V C CNN
+F3 "" -50 0 40 V V C CNN
+F4 "2x1" 0 -350 40 H I C CNN "Component Value"
+F5 "22-28-4020" 150 0 40 V V C CNN "Manufacturer Part Number"
+F6 "Molex" 0 250 40 H I C CNN "Manufacturer"
+F7 "KK Series" 0 -450 40 H I C CNN "Series"
+F8 "2-way, header, 2.54mm pitch, vertical, through hole, KK Series" 0 -550 40 H I C CNN "Part Description"
+$FPLIST
+ ECS00004F
+$ENDFPLIST
+DRAW
+S -100 150 100 -150 0 1 0 N
+X P1 1 -350 100 250 R 40 40 1 1 P I
+X PM 2 -350 -100 250 R 40 40 1 1 P I
+ENDDRAW
+ENDDEF
+#
+# Connectors_ECS00007
+#
+DEF Connectors_ECS00007 P 0 40 Y N 1 F N
+F0 "P" -50 0 40 V V C CNN
+F1 "Connectors_ECS00007" 0 -250 40 H I C CNN
+F2 "" -150 -100 40 V V C CNN
+F3 "" -50 0 40 V V C CNN
+F4 "2x1" 0 -350 40 H I C CNN "Component Value"
+F5 "S2B-PH-SM4-TB(LF)(SN)" 150 0 40 V V C CNN "Manufacturer Part Number"
+F6 "JST" 0 200 40 H I C CNN "Manufacturer"
+F7 "PH Series" 0 -450 40 H I C CNN "Series"
+F8 "2-way, header, 2mm pitch, right angle, SMD, PH Series" 0 -550 40 H I C CNN "Part Description"
+$FPLIST
+ ECS00007F
+$ENDFPLIST
+DRAW
+S -100 150 100 -150 0 1 0 N
+X P1 1 -350 100 250 R 40 40 1 1 P I
+X PM 2 -350 -100 250 R 40 40 1 1 P I
+ENDDRAW
+ENDDEF
+#
+# Connectors_ECS00013
+#
+DEF Connectors_ECS00013 P 0 40 Y N 1 F N
+F0 "P" -50 0 40 V V C CNN
+F1 "Connectors_ECS00013" 0 -200 40 H I C CNN
+F2 "" -150 -100 40 V V C CNN
+F3 "" -50 0 40 V I C CNN
+F4 "3x1" 0 -300 40 H I C CNN "Component Value"
+F5 "22-28-4030" 150 0 40 V V C CNN "Manufacturer Part Number"
+F6 "Molex" 0 -400 40 H I C CNN "Manufacturer"
+F7 "KK Series" 0 -500 40 H I C CNN "Series"
+F8 "3-way, header, 2.54mm pitch, vertical, through hole, KK Series" 50 -600 40 H I C CNN "Part Description"
+$FPLIST
+ ECS00013F
+$ENDFPLIST
+DRAW
+S -100 150 100 -150 0 1 0 N
+X P1 1 -350 100 250 R 40 40 1 1 P I
+X PM 2 -350 0 250 R 40 40 1 1 P I
+X P3 3 -350 -100 250 R 40 40 1 1 P I
+ENDDRAW
+ENDDEF
+#
+# Connectors_ECS00059
+#
+DEF Connectors_ECS00059 J 0 40 Y N 1 F N
+F0 "J" -50 0 40 V V C CNN
+F1 "Connectors_ECS00059" 50 0 40 V I C CNN
+F2 "" -150 -100 60 V V C CNN
+F3 "" -50 0 60 V V C CNN
+F4 "4x1" 0 -350 40 H I C CNN "Component Value"
+F5 "BF090-04-A-1-N-D" 150 0 40 V V C CNN "Manufacturer Part Number"
+F6 "Global Connector Technology" 0 -250 40 H I C CNN "Manufacturer"
+F7 "4-way, receptacle b-b, 2mm pitch, vertical, SMD, BF040 Series" 50 -450 40 H I C CNN "Part Description"
+$FPLIST
+ ECS00059F
+$ENDFPLIST
+DRAW
+S -100 200 100 -200 0 1 0 N
+X P1 1 -350 150 250 R 40 40 1 1 P
+X P2 2 -350 50 250 R 40 40 1 1 P
+X P3 3 -350 -50 250 R 40 40 1 1 P
+X P4 4 -350 -150 250 R 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connectors_ECS00066
+#
+DEF Connectors_ECS00066 J 0 40 Y Y 1 F N
+F0 "J" -300 350 40 H V C CNN
+F1 "Connectors_ECS00066" 0 400 40 H I C CNN
+F2 "" -350 300 40 H I C CNN
+F3 "" -250 400 40 H I C CNN
+F4 "1734035-1" 0 -350 40 H V C CNN "Manufacturer Part Number"
+F5 "TE Connectivity" 0 -450 40 H I C CNN "Manufacturer"
+F6 "Mini USB Type B, receptacle" 0 -550 40 H I C CNN "Part Description"
+$FPLIST
+ ECUSBMINIB
+$ENDFPLIST
+DRAW
+S -350 300 350 -300 0 1 0 N
+X VBUS 1 -500 200 150 R 40 40 1 1 W
+X D- 2 -500 100 150 R 40 40 1 1 B
+X D+ 3 -500 0 150 R 40 40 1 1 B
+X ID 4 -500 -100 150 R 40 40 1 1 B
+X GND 5 -500 -200 150 R 40 40 1 1 W
+X SHELL1 6 500 200 150 L 40 40 1 1 B
+X SHELL2 7 500 100 150 L 40 40 1 1 B
+X SHELL3 8 500 -100 150 L 40 40 1 1 B
+X SHELL4 9 500 -200 150 L 40 40 1 1 B
+ENDDRAW
+ENDDEF
+#
+# Connectors_ECS00067
+#
+DEF Connectors_ECS00067 P 0 40 Y N 1 F N
+F0 "P" -50 0 40 V V C CNN
+F1 "Connectors_ECS00067" 0 -250 40 H I C CNN
+F2 "" -150 -100 40 V V C CNN
+F3 "" -50 0 40 V V C CNN
+F4 "2x1" 0 -350 40 H I C CNN "Component Value"
+F5 "B2B-PH-SM4-TB(LF)(SN)" 150 0 40 V V C CNN "Manufacturer Part Number"
+F6 "JST" 0 200 40 H I C CNN "Manufacturer"
+F7 "PH Series" 0 -450 40 H I C CNN "Series"
+F8 "2-way, header, 2mm pitch, vertical, SMD, PH Series" 0 -550 40 H I C CNN "Part Description"
+$FPLIST
+ ECS00067F
+$ENDFPLIST
+DRAW
+S -100 150 100 -150 0 1 0 N
+X P1 1 -350 100 250 R 40 40 1 1 P I
+X PM 2 -350 -100 250 R 40 40 1 1 P I
+ENDDRAW
+ENDDEF
+#
+# Connectors_ECS00068
+#
+DEF Connectors_ECS00068 P 0 40 Y N 1 F N
+F0 "P" -50 0 40 V V C CNN
+F1 "Connectors_ECS00068" 50 0 40 V I C CNN
+F2 "" -150 -100 60 V V C CNN
+F3 "" -50 0 60 V V C CNN
+F4 "4x1" 0 -350 40 H I C CNN "Component Value"
+F5 "501953-0407" 150 0 40 V V C CNN "Manufacturer Part Number"
+F6 "Molex" 0 -250 40 H I C CNN "Manufacturer"
+F7 "4-way, header, 1mm pitch, right angle, SMD, Pico-Clasp 501953 Series" 50 -450 40 H I C CNN "Part Description"
+$FPLIST
+ ECS00068F
+$ENDFPLIST
+DRAW
+S -100 200 100 -200 0 1 0 N
+X P1 1 -350 150 250 R 40 40 1 1 P I
+X P2 2 -350 50 250 R 40 40 1 1 P I
+X P3 3 -350 -50 250 R 40 40 1 1 P I
+X P4 4 -350 -150 250 R 40 40 1 1 P I
+ENDDRAW
+ENDDEF
+#
+# Diodes_ECS00037
+#
+DEF Diodes_ECS00037 D 0 40 N N 1 F N
+F0 "D" 0 100 40 H V C CNN
+F1 "Diodes_ECS00037" 0 200 40 H I C CNN
+F2 "ECFootprints:EC0603_DIODE" 0 0 40 H I C CNN
+F3 "" 0 0 40 H I C CNN
+F4 "CD0603-B0240" 0 -100 40 H V C CNN "Manufacturer Part Number"
+F5 "Bourns" 0 -200 40 H I C CNN "Manufacturer"
+F6 "Schottky, Single, 0.1A, SMD" 0 -300 40 H I C CNN "Part Description"
+$FPLIST
+ EC0603_DIODE
+$ENDFPLIST
+DRAW
+P 3 0 1 0 -50 50 50 0 -50 -50 F
+P 6 0 1 8 75 25 75 50 50 50 50 -50 25 -50 25 -25 N
+X A 1 -200 0 150 R 40 40 1 1 P
+X K 2 200 0 150 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Diodes_ECS00095
+#
+DEF Diodes_ECS00095 D 0 40 N N 1 F N
+F0 "D" 0 100 40 H V C CNN
+F1 "Diodes_ECS00095" 0 200 40 H I C CNN
+F2 "" 0 0 40 H I C CNN
+F3 "" 0 0 40 H I C CNN
+F4 "STPS2H100A" 0 -100 40 H V C CNN "Manufacturer Part Number"
+F5 "ST Microelectronics" 0 -200 40 H I C CNN "Manufacturer"
+F6 "STPS2H100" 0 300 40 H I C CNN "Series"
+F7 "Schottky, Single, 2A, SMD" 0 -300 40 H I C CNN "Part Description"
+$FPLIST
+ ECDO-214AC(SMA)
+$ENDFPLIST
+DRAW
+P 3 0 1 0 -50 50 50 0 -50 -50 F
+P 6 0 1 8 75 25 75 50 50 50 50 -50 25 -50 25 -25 N
+X A 1 -200 0 150 R 40 40 1 1 P
+X K 2 200 0 150 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Inductors_ECS00071
+#
+DEF Inductors_ECS00071 L 0 40 N N 1 F N
+F0 "L" -50 0 40 V V C CNN
+F1 "Inductors_ECS00071" -150 0 40 V I C CNN
+F2 "" 0 0 40 H I C CNN
+F3 "" 0 0 40 H I C CNN
+F4 "22uH" 100 0 40 V V C CNN "Component Value"
+F5 "46223C" 200 0 40 V I C CNN "Manufacturer Part Number"
+F6 "Murata" 300 0 40 V I C CNN "Manufacturer"
+F7 "4600 Series" 400 0 40 V I C CNN "Series"
+F8 "22uH, 1.8A, 0R12" 500 0 40 V I C CNN "Part Description"
+$FPLIST
+ ECS00071F
+$ENDFPLIST
+DRAW
+A 0 -150 50 -889 889 0 1 0 N 1 -199 1 -100
+A 0 -49 51 -889 889 0 1 0 N 1 -99 1 2
+A 0 51 51 -889 889 0 1 0 N 1 1 1 102
+A 0 148 48 -889 889 0 1 0 N 1 101 1 196
+X 1 1 0 300 100 D 70 70 1 1 P
+X 2 2 0 -300 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Inductors_ECS00074
+#
+DEF Inductors_ECS00074 L 0 40 N N 1 F N
+F0 "L" -50 0 40 V V C CNN
+F1 "Inductors_ECS00074" -150 0 40 V I C CNN
+F2 "ECFootprints:EC0603_L" 0 0 40 H I C CNN
+F3 "" 0 0 40 H I C CNN
+F4 "1kK @ 100MHz" 100 0 40 V V C CNN "Component Value"
+F5 "BLM18TG102TN1D" 200 0 40 V I C CNN "Manufacturer Part Number"
+F6 "Murata" 300 0 40 V I C CNN "Manufacturer"
+F7 "BLM18T Series" 400 0 40 V I C CNN "Series"
+F8 "1K @ 100MHz, 0603, 0.1A, 0R6" 500 0 40 V I C CNN "Part Description"
+$FPLIST
+ EC0603_L
+$ENDFPLIST
+DRAW
+A 0 -150 50 -889 889 0 1 0 N 1 -199 1 -100
+A 0 -49 51 -889 889 0 1 0 N 1 -99 1 2
+A 0 51 51 -889 889 0 1 0 N 1 1 1 102
+A 0 148 48 -889 889 0 1 0 N 1 101 1 196
+X 1 1 0 300 100 D 70 70 1 1 P
+X 2 2 0 -300 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Misc_HOLE
+#
+DEF Misc_HOLE H 0 40 Y Y 1 F N
+F0 "H" 0 150 40 H V C CNN
+F1 "Misc_HOLE" 0 -150 40 H V C CNN
+F2 "" -100 50 40 H I C CNN
+F3 "" 0 150 40 H I C CNN
+$FPLIST
+ HOLE*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 0 N
+C 0 0 100 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# Resistors_ECS00045
+#
+DEF Resistors_ECS00045 R 0 0 N Y 1 F N
+F0 "R" 0 80 40 H V C CNN
+F1 "Resistors_ECS00045" 0 250 40 H I C CNN
+F2 "" 0 -70 30 H I C CNN
+F3 "" 0 0 30 H I C CNN
+F4 "10K" 0 0 40 H V C CNN "Component Value"
+F5 "ERJ3GEYJ103V" 0 -100 40 H I C CNN "Manufacturer Part Number"
+F6 "Panasonic" 0 150 40 H I C CNN "Manufacturer"
+F7 "ERJ Series" 0 -200 40 H I C CNN "Series"
+F8 "10K, 0603, 5%, 0.1W, Thick Film" 0 -300 40 H I C CNN "Part Description"
+$FPLIST
+ EC0603
+$ENDFPLIST
+DRAW
+S -150 -40 150 40 0 1 12 N
+X ~ 1 -250 0 100 R 60 60 1 1 P
+X ~ 2 250 0 100 L 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_ECS00046
+#
+DEF Resistors_ECS00046 R 0 0 N Y 1 F N
+F0 "R" 0 80 40 H V C CNN
+F1 "Resistors_ECS00046" 0 250 40 H I C CNN
+F2 "" 0 -70 30 H I C CNN
+F3 "" 0 0 30 H I C CNN
+F4 "215K" 0 0 40 H V C CNN "Component Value"
+F5 "ERJ3EKF2153V" 0 -100 40 H I C CNN "Manufacturer Part Number"
+F6 "Panasonic" 0 150 40 H I C CNN "Manufacturer"
+F7 "ERJ Series" 0 -200 40 H I C CNN "Series"
+F8 "215K, 0603, 1%, 0.1W, Thick Film" 0 -300 40 H I C CNN "Part Description"
+$FPLIST
+ EC0603
+$ENDFPLIST
+DRAW
+S -150 -40 150 40 0 1 12 N
+X ~ 1 -250 0 100 R 60 60 1 1 P
+X ~ 2 250 0 100 L 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_ECS00047
+#
+DEF Resistors_ECS00047 R 0 0 N Y 1 F N
+F0 "R" 0 80 40 H V C CNN
+F1 "Resistors_ECS00047" 0 250 40 H I C CNN
+F2 "" 0 -70 30 H I C CNN
+F3 "" 0 0 30 H I C CNN
+F4 "330K" 0 0 40 H V C CNN "Component Value"
+F5 "ERJ3EKF3303V" 0 -100 40 H I C CNN "Manufacturer Part Number"
+F6 "Panasonic" 0 150 40 H I C CNN "Manufacturer"
+F7 "ERJ Series" 0 -200 40 H I C CNN "Series"
+F8 "330K,  0603, 1%, 0.1W, Thick Film" 0 -300 40 H I C CNN "Part Description"
+$FPLIST
+ EC0603
+$ENDFPLIST
+DRAW
+S -150 -40 150 40 0 1 12 N
+X ~ 1 -250 0 100 R 60 60 1 1 P
+X ~ 2 250 0 100 L 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_ECS00048
+#
+DEF Resistors_ECS00048 R 0 0 N Y 1 F N
+F0 "R" 0 80 40 H V C CNN
+F1 "Resistors_ECS00048" 0 250 40 H I C CNN
+F2 "" 0 -70 30 H I C CNN
+F3 "" 0 0 30 H I C CNN
+F4 "40K2" 0 0 40 H V C CNN "Component Value"
+F5 "ERA3ARB4022V" 0 -100 40 H I C CNN "Manufacturer Part Number"
+F6 "Panasonic" 0 150 40 H I C CNN "Manufacturer"
+F7 "ERA Series" 0 -200 40 H I C CNN "Series"
+F8 "40K2, 0603, 0.1%, 0.1W, Thin Film" 0 -300 40 H I C CNN "Part Description"
+$FPLIST
+ EC0603
+$ENDFPLIST
+DRAW
+S -150 -40 150 40 0 1 12 N
+X ~ 1 -250 0 100 R 60 60 1 1 P
+X ~ 2 250 0 100 L 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_ECS00055
+#
+DEF Resistors_ECS00055 R 0 0 N Y 1 F N
+F0 "R" 0 80 40 H V C CNN
+F1 "Resistors_ECS00055" 0 250 40 H I C CNN
+F2 "" 0 -70 30 H I C CNN
+F3 "" 0 0 30 H I C CNN
+F4 "0R12" 0 0 40 H V C CNN "Component Value"
+F5 "CRL1206-FW-R120ELF" 0 -100 40 H I C CNN "Manufacturer Part Number"
+F6 "Bourns" 0 150 40 H I C CNN "Manufacturer"
+F7 "CRL Series" 0 -200 40 H I C CNN "Series"
+F8 "0R12, 1206, 1%, 0.25W, Thick Film" 0 -300 40 H I C CNN "Part Description"
+$FPLIST
+ EC1206
+$ENDFPLIST
+DRAW
+S -150 -40 150 40 0 1 12 N
+X ~ 1 -250 0 100 R 60 60 1 1 P
+X ~ 2 250 0 100 L 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_ECS00058
+#
+DEF Resistors_ECS00058 R 0 0 N Y 1 F N
+F0 "R" 0 80 40 H V C CNN
+F1 "Resistors_ECS00058" 0 250 40 H I C CNN
+F2 "" 0 -70 30 H I C CNN
+F3 "" 0 0 30 H I C CNN
+F4 "0R" 0 0 40 H V C CNN "Component Value"
+F5 "ERJ3GEY0R00V" 0 -100 40 H I C CNN "Manufacturer Part Number"
+F6 "Panasonic" 0 150 40 H I C CNN "Manufacturer"
+F7 "ERJ Series" 0 -200 40 H I C CNN "Series"
+F8 "0R, 0603, 0.1W, Jumper" 0 -300 40 H I C CNN "Part Description"
+$FPLIST
+ EC0603
+$ENDFPLIST
+DRAW
+S -150 -40 150 40 0 1 12 N
+X ~ 1 -250 0 100 R 60 60 1 1 P
+X ~ 2 250 0 100 L 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Voltage_Regulators_ECS00036
+#
+DEF Voltage_Regulators_ECS00036 U 0 40 Y Y 1 F N
+F0 "U" -350 300 40 H V C CNN
+F1 "Voltage_Regulators_ECS00036" 50 300 40 H I C CNN
+F2 "" 0 -100 40 H I C CNN
+F3 "" 0 -100 40 H I C CNN
+F4 "NCP1117ST33T3G" -100 -100 40 H V C CNN "Manufacturer Part Number"
+F5 "On Semiconductor" -100 -200 40 H I C CNN "Manufacturer"
+F6 "3.3V Linear Regulator" -100 -300 40 H I C CNN "Part Description"
+$FPLIST
+ ECSOT223
+$ENDFPLIST
+DRAW
+S -400 -50 200 250 0 1 0 f
+X ADJ/GND 1 -550 50 150 R 40 40 1 1 w
+X VOUT 2 350 150 150 L 40 40 1 1 w
+X VIN 3 -550 150 150 R 40 40 1 1 W
+X VOUT 4 350 50 150 L 40 40 1 1 U
+ENDDRAW
+ENDDEF
+#
+# power_+3.3V
+#
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_VAA
+#
+DEF power_VAA #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VAA" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VAA 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_VCC
+#
+DEF power_VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_VDD
+#
+DEF power_VDD #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VDD" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VDD 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -5,3 +5,6 @@ tmp/
 fp-info-cache
 *.kicad_pcb-bak
 *.sch-bak
+*.xlsx
+*.docx
+*.png
