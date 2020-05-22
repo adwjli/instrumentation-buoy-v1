@@ -16,12 +16,6 @@ $EndDescr
 Text Notes 700  850  0    100  ~ 0
 TOP DESIGN
 $Sheet
-S 6000 1050 2400 1650
-U 53810CFF
-F0 "LED Drive" 50
-F1 "led-drive.sch" 50
-$EndSheet
-$Sheet
 S 700  1050 2400 1650
 U 534905EB
 F0 "Microcontroller" 50
@@ -32,5 +26,11 @@ S 3350 1050 2400 1650
 U 53490448
 F0 "Sensing" 50
 F1 "sensing.sch" 50
+$EndSheet
+$Sheet
+S 6000 1050 2400 1650
+U 53810CFF
+F0 "LED Drive" 50
+F1 "led-drive.sch" 50
 $EndSheet
 $EndSCHEMATC

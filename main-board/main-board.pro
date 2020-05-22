@@ -1,4 +1,4 @@
-update=Monday, 11 May 2020 at 10:10:09 pm
+update=Friday, 22 May 2020 at 05:25:52 pm
 version=1
 last_client=kicad
 [general]
@@ -24,7 +24,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Main Board.net
+LastNetListRead=main-board.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -32,7 +32,7 @@ AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
 MinTrackWidth=0.2
-MinViaDiameter=0
+MinViaDiameter=0.5
 MinViaDrill=0
 MinMicroViaDiameter=0
 MinMicroViaDrill=0
@@ -58,7 +58,7 @@ CopperTextThickness=0.2
 CopperTextItalic=0
 CopperTextUpright=1
 EdgeCutLineWidth=0.09999999999999999
-CourtyardLineWidth=0.09999999999999999
+CourtyardLineWidth=0.05
 OthersLineWidth=0.09999999999999999
 OthersTextSizeV=0.5
 OthersTextSizeH=0.5
@@ -68,7 +68,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
