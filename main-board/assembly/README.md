@@ -1,6 +1,4 @@
-# Assembly Files
-
-## Assembly Drawing
+# Assembly Drawing
 
 ![Assembly Drawing.](asm-dwg-main-board.jpeg)
 
