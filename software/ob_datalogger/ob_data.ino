@@ -1,3 +1,11 @@
+/*
+Ocean Buoy Data Logger - Arduino Firmware
+Rev 1.0
+Author: Andrew Li
+Year: 2014
+
+*/
+
 void initialiseSD() {
 	if (!SD.begin(pin_chip_select)) {
 		flag_error = 1;

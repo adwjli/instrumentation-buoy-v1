@@ -1,3 +1,11 @@
+/*
+Ocean Buoy Data Logger - Arduino Firmware
+Rev 1.0
+Author: Andrew Li
+Year: 2014
+
+*/
+
 // 30 PSI Sensor
 void initialisePressureSensor30SPI() {
 	SSCSensor.setMinRaw(0); // Minimum pressure (raw) is 0
