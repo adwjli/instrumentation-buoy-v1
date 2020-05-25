@@ -1,0 +1,11 @@
+### Module positions - created on Monday, 25 May 2020 at 01:57:06 pm ###
+### Printed by Pcbnew version kicad (5.1.5-0-10_14)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                PosX       PosY       Rot  Side
+J1        ECS00066  ECUSBMINIB          24.7240     5.3060   90.0000  top
+J8        ECS00059  ECS00059F           63.5000    11.0900  180.0000  top
+J9        ECS00059  ECS00059F           57.5000    47.2100  180.0000  top
+J11       ECS00059  ECS00059F            4.7900    29.6500   90.0000  top
+P6        ECS00067  ECS00067F           13.5480     2.5120  180.0000  top
+## End

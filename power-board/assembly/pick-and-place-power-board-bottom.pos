@@ -1,0 +1,30 @@
+### Module positions - created on Monday, 25 May 2020 at 01:57:06 pm ###
+### Printed by Pcbnew version kicad (5.1.5-0-10_14)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                PosX       PosY       Rot  Side
+C1        ECS00053  EC2917             -30.0580    24.3560  270.0000  bottom
+C2        ECS00052  EC0603_C           -39.3700    30.1400  180.0000  bottom
+C3        ECS00050  EC0805             -18.8820    30.1980    0.0000  bottom
+C4        ECS00053  EC2917             -48.3460    31.7220   90.0000  bottom
+C5        ECS00050  EC0805             -18.8820    32.4840    0.0000  bottom
+C6        ECS00054  EC2917             -24.9780    24.3560  270.0000  bottom
+D11       ECS00095  ECDO-214AC(SMA)    -43.7740    33.2460  270.0000  bottom
+D12       ECS00037  EC0603_DIODE       -37.6780    27.1500   90.0000  bottom
+L1        ECS00074  EC0603_L           -52.3240    22.0120    0.0000  bottom
+L2        ECS00071  ECS00071F          -33.3600    33.5000  180.0000  bottom
+P1        ECS00067  ECS00067F          -11.7700    22.3240  270.0000  bottom
+P2        ECS00007  ECS00007F          -45.8000    45.6600  180.0000  bottom
+P12       ECS00068  ECS00068F          -64.6020    29.1820   90.0000  bottom
+P13       ECS00068  ECS00068F          -64.6020    20.5460   90.0000  bottom
+R1        ECS00045  EC0603             -46.0600    24.1020  270.0000  bottom
+R2        ECS00045  EC0603             -47.8380    24.1020  270.0000  bottom
+R3        ECS00046  EC0603             -36.6620    22.5780   90.0000  bottom
+R4        ECS00048  EC0603             -36.9160    24.8640    0.0000  bottom
+R5        ECS00047  EC0603             -34.8840    22.5780   90.0000  bottom
+R6        ECS00058  EC0603             -38.4400    22.5780   90.0000  bottom
+R7        ECS00058  EC0603             -44.0280    22.5780   90.0000  bottom
+R9        ECS00055  EC1206             -34.1220    26.6420  270.0000  bottom
+U1        ECS00043  ECMSOP-12D         -41.9960    26.6420  270.0000  bottom
+U2        ECS00036  ECSOT223           -12.2780    32.4840  270.0000  bottom
+## End
