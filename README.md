@@ -13,7 +13,7 @@ To aid in understanding how compressed air can be generated from ocean waves, a 
 - Designed to be completely solar powered. It is powered by an array of solar panels and a rechargeable 18650 Li-ion battery.
 - A microSD card is used for data storage, but data transfer is done completely wirelessly using a XBee wireless module. The XBee module also allows over the air firmware updates. The solar-power and wireless capabilities of the data logger are necessary as the electronics will be permanently sealed away inside the buoy to ensure the electronics compartment is water-tight.
 
-The data logger consists of two PCB assemblies sandwitched together. The entire PCB assembly is designed to be mounted in a prototype buoy, and deployed in the ocean to collect data.
+The data logger consists of two PCB assemblies sandwitched together. The smaller board is the Main Board. It contains the microcontroller, wireless module, and other digital electronics. The larger board is the Power Board whic contains all the power electronics for solar charging. The entire PCB assembly is designed to be mounted in a prototype buoy, and deployed in the ocean to collect data.
 
 The client has agreed to open source the designs.
 
