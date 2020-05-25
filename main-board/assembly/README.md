@@ -1,6 +1,6 @@
 # Assembly Drawing
 
-![Assembly Drawing.](asm-dwg-main-board.jpeg)
+![Assembly Drawing.](asm-dwg-main-board.jpg)
 
 ## Bill of Materials
 

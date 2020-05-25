@@ -1,4 +1,4 @@
-update=Sunday, 26 April 2020 at 02:05:17 pm
+update=Sunday, 24 May 2020 at 02:32:06 pm
 version=1
 last_client=kicad
 [cvpcb]
@@ -11,6 +11,16 @@ version=1
 [eeschema]
 version=1
 LibDir=
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=schematics
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -21,11 +31,11 @@ AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0
-MinViaDiameter=0
-MinViaDrill=0
-MinMicroViaDiameter=0
-MinMicroViaDrill=0
+MinTrackWidth=0.2
+MinViaDiameter=0.5
+MinViaDrill=0.5
+MinMicroViaDiameter=0.09999999999999999
+MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.254
 TrackWidth2=0.254
@@ -248,13 +258,3 @@ uViaDrill=0.127
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=schematics
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1

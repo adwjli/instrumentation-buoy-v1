@@ -7,7 +7,7 @@ Sheet 1 1
 Title "Power Board"
 Date "2020-04-25"
 Rev "C"
-Comp "Project: Buoy Instrumentation"
+Comp "Project: Instrumentation Buoy"
 Comment1 "Drawn by: Andrew Li"
 Comment2 ""
 Comment3 ""
@@ -507,30 +507,21 @@ Wire Wire Line
 Wire Wire Line
 	9550 5150 9600 5150
 Wire Wire Line
-	10500 5050 10550 5050
+	10750 5000 10750 5050
 Wire Wire Line
-	10550 5050 10650 5050
-Wire Wire Line
-	10500 5150 10550 5150
-Wire Wire Line
-	10550 5150 10550 5050
-Connection ~ 10550 5050
-Wire Wire Line
-	10650 5000 10650 5050
-Wire Wire Line
-	10650 5050 10650 5250
+	10750 5050 10750 5250
 $Comp
 L power:+3.3V #PWR012
 U 1 1 53B80115
-P 10650 5000
-F 0 "#PWR012" H 10650 4960 30  0001 C CNN
-F 1 "+3.3V" H 10650 5110 30  0000 C CNN
-F 2 "~" H 10650 5000 60  0000 C CNN
-F 3 "~" H 10650 5000 60  0000 C CNN
-	1    10650 5000
+P 10750 5000
+F 0 "#PWR012" H 10750 4960 30  0001 C CNN
+F 1 "+3.3V" H 10750 5110 30  0000 C CNN
+F 2 "~" H 10750 5000 60  0000 C CNN
+F 3 "~" H 10750 5000 60  0000 C CNN
+	1    10750 5000
 	1    0    0    -1  
 $EndComp
-Connection ~ 10650 5050
+Connection ~ 10750 5050
 Text Label 3500 5050 0    60   ~ 0
 ~CHARGE
 Text Label 3500 5150 0    60   ~ 0
@@ -921,17 +912,17 @@ $EndComp
 $Comp
 L Capacitors:ECS00050 C5
 U 1 1 53B8C2F4
-P 10650 5450
-F 0 "C5" H 10650 5550 40  0000 L CNN
-F 1 "ECS00050" V 10400 5300 40  0001 L CNN
-F 2 "ECFootprints:EC0805" H 10688 5300 30  0001 C CNN
-F 3 "~" H 10650 5450 60  0001 C CNN
-F 4 "10uF" H 10550 5350 40  0000 C CNN "Component Value"
-F 5 "GRM21BR61A106KE19L" V 10800 5450 40  0001 C CNN "Manfacturer Part Number"
-F 6 "Murata" V 10500 5450 40  0001 C CNN "Manufacturer"
-F 7 "GRM Series" V 10900 5450 40  0001 C CNN "Series"
-F 8 "10uF, 0805, 10%, 10V, X5R, Ceramic" V 11000 5350 40  0001 C CNN "Part Description"
-	1    10650 5450
+P 10750 5450
+F 0 "C5" H 10750 5550 40  0000 L CNN
+F 1 "ECS00050" V 10500 5300 40  0001 L CNN
+F 2 "ECFootprints:EC0805" H 10788 5300 30  0001 C CNN
+F 3 "~" H 10750 5450 60  0001 C CNN
+F 4 "10uF" H 10650 5350 40  0000 C CNN "Component Value"
+F 5 "GRM21BR61A106KE19L" V 10900 5450 40  0001 C CNN "Manfacturer Part Number"
+F 6 "Murata" V 10600 5450 40  0001 C CNN "Manufacturer"
+F 7 "GRM Series" V 11000 5450 40  0001 C CNN "Series"
+F 8 "10uF, 0805, 10%, 10V, X5R, Ceramic" V 11100 5350 40  0001 C CNN "Part Description"
+	1    10750 5450
 	1    0    0    -1  
 $EndComp
 Text Notes 6900 3550 0    60   ~ 0
@@ -1120,12 +1111,12 @@ Board to Board Connectors
 $Comp
 L power:GND #PWR011
 U 1 1 53B80095
-P 10650 6050
-F 0 "#PWR011" H 10650 6050 30  0001 C CNN
-F 1 "GND" H 10650 5980 30  0001 C CNN
-F 2 "~" H 10650 6050 60  0000 C CNN
-F 3 "~" H 10650 6050 60  0000 C CNN
-	1    10650 6050
+P 10750 6050
+F 0 "#PWR011" H 10750 6050 30  0001 C CNN
+F 1 "GND" H 10750 5980 30  0001 C CNN
+F 2 "~" H 10750 6050 60  0000 C CNN
+F 3 "~" H 10750 6050 60  0000 C CNN
+	1    10750 6050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1181,7 +1172,7 @@ Wire Wire Line
 Wire Wire Line
 	9550 5150 9550 6050
 Wire Wire Line
-	10650 6050 10650 5650
+	10750 6050 10750 5650
 $Comp
 L power:GND #PWR0101
 U 1 1 5EA48742
@@ -1251,4 +1242,13 @@ Wire Wire Line
 Connection ~ 9300 5050
 Text Notes 8050 4350 0    60   ~ 0
 Short P4 to connect\nCharging circuit with\nbattery
+Wire Wire Line
+	10600 5050 10650 5050
+Wire Wire Line
+	10600 5150 10650 5150
+Wire Wire Line
+	10650 5150 10650 5050
+Connection ~ 10650 5050
+Wire Wire Line
+	10650 5050 10750 5050
 $EndSCHEMATC
